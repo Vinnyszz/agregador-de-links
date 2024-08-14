@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.inicio {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+
+}
+.inicio_principal {
+    display: flex;
+    background-color: hsl(0, 0%, 12%);
+    flex-direction: column;
+    align-items: center;
+    padding: 2vh;
+    border-radius: 2%;
+    align-content: center;
+    margin: 7%;
+    width: 38vh;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+}
+.inicio_principal_img{
+    width: 25%;
+    border-radius: 50%;
+    margin-top: 5%;
+}
+.inicio_principal_infos{
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    align-items: center;
+}
+.inicio_principal_infos_dados{
+    display: flex;
+    flex-direction: column;
+    gap:1vh;
+    align-items: center;
+}
+.inicio_principal_infos_nome{
+    color: hsl(0, 0%, 100%);
+}
+.inicio_principal_infos_local{
+    color: hsl(75, 94%, 57%);
+}
+.inicio_principal_cargo {
+    font-family: "Inter", sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-weight: 200;
+    gap: 20vh;
+}
+.inicio_principal_botoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 5%;
+    width: 100%;
+}
+.inicio_principal_botoes_item {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    background-color: hsl(0, 0%, 20%);
+    padding: 4%;
+    width: 90%;
+    border-radius: 1vh;
+    align-items: center;
+    font-size: 90%;
+}
+.inicio_principal_botoes_item:hover{
+    background-color: hsl(75, 94%, 57%);;
+}
